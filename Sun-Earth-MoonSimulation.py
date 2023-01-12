@@ -125,6 +125,6 @@ anim = animation.FuncAnimation(fig, animate, frames=nframes, repeat=True,
 
 plt.show()
 
-f = 'brando.gif'
+f = 'Sun-Earth-Moon-Simulation.gif'
 writergif = animation.PillowWriter(fps=60) 
 anim.save(f, writer=writergif)
